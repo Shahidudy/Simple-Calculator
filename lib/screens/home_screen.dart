@@ -219,7 +219,8 @@ class _HomeScreenState extends State<HomeScreen> {
                         title: "DEL",
                         pressing: () {
                           setState(() {
-                            userInput.substring(0, userInput.length - 1);
+                            userInput =
+                                userInput.substring(0, userInput.length - 1);
                           });
                         },
                       ),
